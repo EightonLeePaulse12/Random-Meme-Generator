@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+.main-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+
+.generate-the-meme {
+  width: 8rem;
+  height: 3rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: "Special Elite", cursive;
+  border: 0.2rem solid black;
+  background-color: rgb(9, 255, 9);
+  cursor: pointer;
+}
+
+.generate-the-meme:hover {
+  color: rgb(9, 255, 9);
+  background-color: black;
+  border: 0.2rem solid rgb(9, 255, 9);
+}
+
+.generate-the-meme:active{
+    background-color: red;
+}
+
+.meme-image {
+  height: 30rem;
+  width: 70%;
+  margin: 2rem auto;
+  object-fit: contain;
+  background-position: center;
+}
+
+.meme-author {
+  padding-top: 0;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}

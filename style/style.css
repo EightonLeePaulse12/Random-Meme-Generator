@@ -60,7 +60,8 @@ body {
 }
 
 .generate-the-meme:active{
-    background-color: red;
+    background-color: rgb(84, 247, 119);
+    color: white;
 }
 
 .meme-image {
